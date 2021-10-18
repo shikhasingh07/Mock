@@ -10,7 +10,7 @@ const mockdata = [
     company: "Abc Compamy"
   },
   {
-    id: "1 + s",
+    id: "1 + s2",
     firstName: "John",
     lastName: "Doe",
     phoneNumber: 123345,
@@ -18,7 +18,7 @@ const mockdata = [
     company: "Abc Compamy"
   },
   {
-    id: "1 + s",
+    id: "1 + s3",
     firstName: "John",
     lastName: "Doe",
     phoneNumber: 123345,
@@ -26,7 +26,7 @@ const mockdata = [
     company: "Abc Compamy"
   },
   {
-    id: "1 + s",
+    id: "1 + s9",
     firstName: "John",
     lastName: "Doe",
     phoneNumber: 123345,
