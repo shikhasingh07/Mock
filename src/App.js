@@ -5,7 +5,6 @@ import Posts from "./Compoents/Posts"
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   const [currentId, setCurrentId] = useState(0);
-  console.log(currentId)
   return (
     <div className="row m-0">
       <div className='col-lg-7 col-md-12'>

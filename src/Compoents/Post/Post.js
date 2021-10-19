@@ -2,12 +2,13 @@ import React from 'react'
 import { Card } from 'react-bootstrap'
 
 const Post = ({ post, setCurrentId }) => {
+  console.log(post, "Current Post")
   return (
     <Card className='mt-3  shadow  bg-white rounded'>
       <div className='card-body'>
-        <h5 className="card-title">{post.firstName}</h5>
-        <h6 className="card-text ">{post.lastName}</h6>
-        <h6 className="card-text ">{post.phoneNumber}</h6>
+        <h5 className="card-title">{post.employee_name}</h5>
+        <h6 className="card-text ">{post.employee_salary}</h6>
+        <h6 className="card-text ">{post.employee_age}</h6>
         <h6 className="card-text ">{post.email}</h6>
         <h6 className="card-text ">{post.company}</h6>
       </div>
